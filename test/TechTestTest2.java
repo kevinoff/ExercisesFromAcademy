@@ -15,7 +15,7 @@ public class TechTestTest2 {
 	@Test
 	public void shouldReturnInvalidBecauseUnclosedBrace() {
 		Integer expected0 = -1;
-		Integer actual0 = TechTestEx2.numberOfBracePairs("{[}");
+		Integer actual0 = TechTestEx2.numberOfBracePairs("{[}]()");
 		assertEquals(expected0, actual0);
 	}
 
