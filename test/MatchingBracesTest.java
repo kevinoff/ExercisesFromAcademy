@@ -53,6 +53,7 @@ public class MatchingBracesTest {
 
 		String test6 = MatchingBraces.balancedBrackets("{[}]");
 
+		
 		assertEquals("not balanced",test6);
 	}
 
